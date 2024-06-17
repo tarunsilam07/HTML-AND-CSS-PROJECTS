@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 15px 30px;
+    padding: 10px;
+    font-size: 17px;
+    margin: 15px 30px;
+  }
+  .container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(236, 247, 251);
+    padding: 5px 20px 15px 20px;
+    border-radius: 10px;
+  }
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  fieldset,
+  textarea {
+    padding: 10px;
+    word-spacing: 2px;
+    border: "8px";
+    margin: 8px;
+    width: 100%;
+  }
+  input[type="submit"] {
+    background-color: lightblue;
+    color: white;
+    font-size: larger;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  input[type="submit"]:hover {
+    background-color: green;
+  }
+  h1 {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  
